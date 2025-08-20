@@ -1,0 +1,19 @@
+{
+  "name": "bot-markeples-vercel",
+  "version": "1.0.0",
+  "description": "Telegram Bot running on Vercel",
+  "main": "bot.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.64.0"
+  },
+  "devDependencies": {
+    "vercel": "^32.0.0"
+  },
+  "engines": {
+    "node": ">=18.x"
+  }
+}
